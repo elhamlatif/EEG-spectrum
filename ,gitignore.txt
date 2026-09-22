@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# data & results — folders stay, files don't
+data/raw/*
+!data/raw/.gitkeep
+results/*
+!results/.gitkeep
+
+# misc
+*.asv
